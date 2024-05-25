@@ -41,8 +41,7 @@ class JogoDaVelha:
             return self.tabuleiro['7']
         elif self.tabuleiro['1'] == self.tabuleiro['5'] == self.tabuleiro['9'] != ' ':
             return self.tabuleiro['1']
-
-        # Verificando empate
+            
         if [*self.tabuleiro.values()].count(' ') == 0:
             return "empate"
         else:
