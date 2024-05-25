@@ -1,4 +1,4 @@
-class JogoDaVela:
+class JogoDaVelha:
     tabuleiro = {'7': ' ', '8': ' ', '9': ' ', '4': ' ', '5': ' ', '6': ' ', '1': ' ', '2': ' ', '3': ' '}
     turno = None
 
@@ -84,6 +84,6 @@ class JogoDaVela:
         self.exibir_tabuleiro()
 
 
-jogo = JogoDaVela()
+jogo = JogoDaVelha()
 
 jogo.jogar()
